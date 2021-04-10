@@ -1,4 +1,4 @@
-package initanalysis
+package initcheck
 
 import (
 	"bytes"
@@ -84,7 +84,6 @@ func loadPackages(patterns []string) ([]*packages.Package, error) {
 		Mode: packages.NeedName | packages.NeedImports | packages.NeedDeps |
 			packages.NeedModule | packages.NeedFiles | packages.NeedSyntax |
 			packages.NeedTypes,
-		Tests: true,
 	}
 
 	pkgs, err := packages.Load(config, patterns...)

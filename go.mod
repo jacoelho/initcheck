@@ -1,4 +1,4 @@
-module github.com/jacoelho/initanalysis
+module github.com/jacoelho/initcheck
 
 go 1.16
 
