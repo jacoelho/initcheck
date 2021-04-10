@@ -1,6 +1,6 @@
-# Init Analysis
+# Init Check
 
-initanalysis is a program to check the existence of init functions in go code and imported dependencies.
+initcheck is a program to check the existence of init functions in go code and imported dependencies.
 
 ## Usage
 
@@ -9,3 +9,9 @@ go mod download
 
 initcheck .
 ```
+
+## License
+
+GNU General Public License v3.0 or later
+
+See [LICENSE](LICENSE) to see the full text.
