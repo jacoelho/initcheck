@@ -2,6 +2,12 @@
 
 initcheck is a program to check the existence of init functions in go code and imported dependencies.
 
+## Install
+
+```
+go install github.com/jacoelho/initcheck@latest 
+```
+
 ## Usage
 
 ```
