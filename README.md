@@ -5,7 +5,7 @@ initcheck is a program to check the existence of init functions in go code and i
 ## Install
 
 ```
-go install github.com/jacoelho/initcheck@latest 
+go install github.com/jacoelho/initcheck/cmd/initcheck@latest
 ```
 
 ## Usage
